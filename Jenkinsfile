@@ -11,7 +11,7 @@ pipeline {
             steps {
               sh '''
               mkdir fritz
-              rm-rf fritz
+              rm -rf fritz
 
               '''
                 
@@ -24,7 +24,7 @@ pipeline {
             steps {
               sh '''
               touch esy
-              rm-rf esy
+              rm -rf esy
 
               '''
                 
